@@ -11,7 +11,12 @@ img {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    border: 14px color blue;
+    border: 5px solid blue;
     margin-left: 1150px;
     margin-top: 150px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(45deg, blue, purple, red) border-box;
 }
